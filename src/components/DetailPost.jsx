@@ -71,7 +71,7 @@ const PostDetail = () => {
         {post ? (
           <div className="p-8 mr-[12rem] rounded-lg shadow-lg w-[50rem] items-center bg-white mb-8">
             <div className="flex items-center justify-center mb-6">
-              <img src={randomImageUrl} alt={post.address} className="w-64 h-64 object-cover rounded-lg" />
+              <img src={post.image} alt={post.address} className="w-64 h-64 object-cover rounded-lg" />
             </div>
             <h2 className="text-2xl font-bold mb-4">{post.address}</h2>
             <p className="text-gray-800 mb-4">{post.content}</p>
