@@ -73,8 +73,8 @@ const PostDetail = () => {
             <div className="flex items-center justify-center mb-6">
               <img src={post.image} alt={post.address} className="w-64 h-64 object-cover rounded-lg" />
             </div>
-            <h2 className="text-2xl font-bold mb-4">{post.address}</h2>
-            <p className="text-gray-800 mb-4">{post.content}</p>
+            <h2 className="text-4xl font-bold mb-4">{post.address}</h2>
+            <p className="text-gray-800 mb-4 font-semibold">{post.content}</p>
           </div>
         ) : (
           <p>No post details found.</p>

@@ -21,6 +21,7 @@ function App() {
       <Route path='/' element={<CreatePost />} />
       <Route path='/viewAll' element={<AllPosts />} />
       <Route path='/detail/:id' element={<DetailPost />} />
+      <Route path="*" element={<AllPosts />} />
     </Routes>
     </div>
   );
