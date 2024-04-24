@@ -18,8 +18,8 @@ function App() {
   return (
     <div>
     <Routes>
-      <Route path='/' element={<CreatePost />} />
-      <Route path='/viewAll' element={<AllPosts />} />
+      <Route path='/create' element={<CreatePost />} />
+      <Route path='/' element={<AllPosts />} />
       <Route path='/detail/:id' element={<DetailPost />} />
       <Route path="*" element={<AllPosts />} />
     </Routes>

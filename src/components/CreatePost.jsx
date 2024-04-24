@@ -25,7 +25,7 @@ const NewPost = () => {
       setLoading(false);
       alert("Blog created successfully!");
       console.log(res);
-      navigate("/viewAll");
+      navigate("/");
     } catch (error) {
       alert("Failed to create blog: " + error.response.data.message);
     }
